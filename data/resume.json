@@ -1,149 +1,129 @@
 {
-  "tagline": "Software Engineer · Cloud, Data & AI Problem Solver",
-  "summary": "Master of Engineering candidate at Virginia Tech with experience building large-scale AWS data platforms, AI-powered marketing products, and automation that accelerates customer insights for global teams.",
+  "tagline": "Software Engineer · Cloud, AI & Full-Stack",
+  "summary": "Graduate CS engineer specializing in cloud platforms, production-grade web apps, and ML-enabled systems. Experience spans HIPAA/TCPA-compliant communication products, AWS/Kubernetes education at scale, and enterprise full-stack systems.",
   "links": [
-    { "label": "Email", "url": "mailto:rubavignesh@gmail.com" },
+    { "label": "Email", "url": "mailto:rubavignesh@vt.edu" },
     { "label": "Phone", "url": "tel:+15716357859" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rubavignesh/" },
+    { "label": "LinkedIn", "url": "http://www.linkedin.com/in/rubavignesh" },
     { "label": "GitHub", "url": "https://github.com/rubavignesh" }
   ],
   "about": [
-    "I enjoy translating business goals into resilient cloud and data solutions that make analytics effortless for stakeholders and unlock faster decisions.",
-    "From shipping production systems at Amazon and Globant to supporting statewide digital modernization at Virginia Tech, I thrive in cross-functional teams where customer empathy, technical rigor, and mentorship are equally valued."
+    "I build reliable, scalable systems across the stack—API design, data flows, cloud infra, and frontends that feel fast and polished.",
+    "Recent work includes HIPAA/TCPA-compliant voice automation on GCP, AWS/EKS teaching modules for 100+ students, and Spring Boot + React platforms for fintech and operations."
   ],
   "experience": [
     {
-      "role": "Software Engineer Intern",
-      "company": "Amazon",
-      "location": "Seattle, WA",
-      "period": "May 2024 – Aug 2024",
+      "role": "Full Stack Engineer Intern",
+      "company": "Bindr.AI",
+      "location": "Falls Church, VA",
+      "period": "Aug 2025 – Present",
       "achievements": [
-        "Built a privacy configuration review workflow powered by AWS Step Functions, Lambda, and DynamoDB, reducing manual review time from five hours per week to under a minute across 700+ data components.",
-        "Developed an AWS Glue and S3 ingestion pipeline with automated anomaly dashboards, eliminating recurring data ingestion issues and giving stakeholders real-time visibility into stream health.",
-        "Automated on-call detection scripts to surface data outages proactively, creating guardrails that accelerated issue triage by 30%."
+        "Building a HIPAA/TCPA-compliant ringless voicemail system using Express/TypeScript APIs on GCP with Node.js schedulers, Firestore, and a React Native iOS app; secured via CI/CD.",
+        "Scaling a Payroll & HRMS full-stack app (Java + SQL + Angular) with Kubernetes orchestration and Vertex AI batch inference to automate compliance checks."
       ],
-      "tech": ["AWS", "Step Functions", "Lambda", "DynamoDB", "Glue", "S3", "CloudWatch"]
+      "tech": ["TypeScript", "Node.js", "Express", "React Native", "GCP", "Cloud Run", "Firestore", "Kubernetes", "CI/CD", "Java", "SQL", "Angular", "Vertex AI"]
     },
     {
-      "role": "Graduate Research Assistant",
+      "role": "Graduate Software Engineer — Cloud Platforms",
       "company": "Virginia Tech",
-      "location": "Blacksburg, VA",
-      "period": "Aug 2023 – Present",
+      "location": "Falls Church, VA",
+      "period": "Feb 2025 – May 2025",
       "achievements": [
-        "Researching predictive models that improve DMV taxpayer assistance workflows and elevate customer service outcomes.",
-        "Mentored six teammates on data engineering practices while delivering sprint commitments and automating pipelines that capture critical DMV program metrics.",
-        "Serve as AWS administrator to provision IAM roles, S3 buckets, RDS, and networking resources supporting the state's cloud migration efforts."
+        "Developed AWS course modules (EC2, EKS, Lambda, IAM) and Kubernetes orchestration with Terraform/CloudFormation.",
+        "Mentored 100+ students to debug and deploy full-stack applications for Capstone projects."
       ],
-      "tech": ["Python", "AWS", "SageMaker", "RDS", "IAM", "S3"]
+      "tech": ["AWS", "EC2", "EKS", "Lambda", "IAM", "Terraform", "CloudFormation", "Kubernetes"]
     },
     {
-      "role": "Senior Software Engineer",
-      "company": "Globant (ShieldRockets)",
-      "location": "Bengaluru, India",
-      "period": "Sep 2021 – Aug 2023",
+      "role": "Graduate Software Engineer — Web Application Development",
+      "company": "Virginia Tech",
+      "location": "Falls Church, VA",
+      "period": "Aug 2024 – Dec 2024",
       "achievements": [
-        "Led development of GrowthLens, an AI-driven marketing intelligence platform that shrank campaign insight turnaround from weeks to hours.",
-        "Architected AWS data lake and Spark pipelines for six enterprise clients, powering 150+ dashboards with EMR, Glue, DynamoDB, and S3.",
-        "Integrated AWS Personalize and customer data platforms to deliver automated marketing journeys that increased campaign ROI by 17%."
+        "Built a bookstore application starter (React + Jakarta EE/Java + MySQL) with weekly milestones.",
+        "Designed production-ready CRUD/auth workflows to assess and improve full-stack skills for 90+ students."
       ],
-      "tech": ["AWS", "EMR", "Glue", "Spark", "DynamoDB", "S3", "Personalize", "React"]
+      "tech": ["React", "Java", "Jakarta EE", "MySQL", "Node.js"]
     },
     {
-      "role": "Senior Software Engineer",
-      "company": "Goals101 Data Solutions",
-      "location": "Noida, India",
-      "period": "Sep 2019 – Aug 2021",
+      "role": "Software Engineer II",
+      "company": "Hexaware Technologies",
+      "location": "Chennai, India",
+      "period": "Jun 2021 – Jun 2023",
       "achievements": [
-        "Designed scalable data pipelines and analytics services that delivered personalized dashboards for 10+ financial institutions.",
-        "Containerized deployments with Docker and Helm, improving release cadence by 30% while hardening CI/CD practices.",
-        "Mentored five engineers, formalized code review guidelines, and rolled out automated testing to cut production defects by 40%."
+        "Built Java Spring Boot microservices with React and MySQL for mortgage loan processing; improved prediction accuracy by 25% and cut labeling time by 55%.",
+        "Shipped a customer churn platform (Spring Boot, Angular, MySQL) processing thousands of daily records; reduced churn by 30%.",
+        "Designed a secure loan document repository on AWS (S3, IAM, Lambda) with SHA-256 encryption; streamlined 1,000+ docs/month and cut retrieval time by 40%.",
+        "Delivered Java + Azure video analytics analyzing 500+ ATM feeds/day; reduced fraud response times by 40%."
       ],
-      "tech": ["Node.js", "AWS", "Docker", "Helm", "PostgreSQL", "Kafka"]
+      "tech": ["Java", "Spring Boot", "React", "Angular", "MySQL", "AWS (S3, IAM, Lambda)", "Azure", "SHA-256"]
     }
   ],
   "projects": [
     {
-      "name": "AWS Team Metrics Pipeline",
-      "description": "Built an end-to-end AWS data pipeline that standardizes engineering metrics for multiple teams and visualizes progress across initiatives.",
+      "name": "Frequent Flyer Loyalty Program Fraud Detection",
+      "description": "Real-time fraud detection pipeline for airline loyalty transactions.",
       "highlights": [
-        "Provisioned ingestion with AWS Glue, Lambda, and EventBridge to aggregate signals from disparate services.",
-        "Authored CloudWatch dashboards and alerts that surface blockers instantly and keep leadership aligned on delivery health."
+        "Processed 350K+ loyalty transactions with AWS Glue, Redshift, Kafka, and S3; cut detection latency by 40%.",
+        "Built React + Node.js dashboard for alerts, drilldowns, and transaction insights."
       ],
-      "techStack": ["AWS Glue", "Lambda", "EventBridge", "S3", "CloudWatch"]
+      "techStack": ["React", "Node.js", "AWS Glue", "Redshift", "Kafka", "S3", "TensorFlow"]
     },
     {
-      "name": "Job Tracking Platform",
-      "description": "Productivity platform that helps job seekers organize applications, interview prep, and AI-assisted task breakdowns.",
+      "name": "Goalden — Comprehensive Productivity Tool (ShellHacks 2024)",
+      "description": "MERN platform with AI task breakdowns and job-tracking.",
       "highlights": [
-        "Shipped a MERN stack application with secure authentication, goal tracking, and real-time collaboration features.",
-        "Integrated AI copilots that summarize job descriptions and recommend tailored action plans, boosting user productivity by 40%."
+        "Integrated LangChain + Claude AI for contextual subtasks and JD assistance; improved task completion efficiency by 30%."
       ],
-      "techStack": ["Next.js", "Node.js", "MongoDB", "Express", "OpenAI"]
+      "techStack": ["React", "Node.js", "MongoDB", "Express", "LangChain", "Claude.ai", "LLMs", "Prompt Engineering"]
     },
     {
-      "name": "Amico Carpooling App",
-      "description": "Student-focused ride-sharing platform that intelligently matches commuters based on interests and schedules.",
+      "name": "AmiGo — Carpool Ride-Sharing App (VTHacks 2024 • MLH Winner)",
+      "description": "Interest-based matching for campus carpools in a 36-hour build.",
       "highlights": [
-        "Built AWS Lambda and API Gateway backend with DynamoDB routing that successfully matched 1,000+ student ride requests.",
-        "Earned top honors at MLH, PennApps, and YHack hackathons for reducing ride search time by 40% with recommendation algorithms."
+        "React Native app with Node.js API and MSSQL on Azure/Defang; paired ~1,000 student carpools and reduced ride search time by 40%."
       ],
-      "techStack": ["AWS Lambda", "API Gateway", "DynamoDB", "React", "Node.js"]
+      "techStack": ["React Native", "Node.js", "MSSQL", "Azure", "Defang"]
     }
   ],
   "skills": [
-    {
-      "title": "Programming Languages",
-      "items": ["Python", "JavaScript", "TypeScript", "Java", "SQL"]
-    },
-    {
-      "title": "Cloud & Data Platforms",
-      "items": ["AWS", "Step Functions", "Glue", "Lambda", "DynamoDB", "S3", "RDS", "EMR", "Kafka"]
-    },
-    {
-      "title": "Frameworks & Tools",
-      "items": ["Node.js", "React", "Next.js", "Express", "MongoDB", "PostgreSQL", "Docker", "Helm", "GitHub Actions"]
-    },
-    {
-      "title": "Machine Learning & Analytics",
-      "items": ["PyTorch", "scikit-learn", "Pandas", "NumPy", "Tableau", "Power BI"]
-    },
-    {
-      "title": "Leadership & Collaboration",
-      "items": ["Technical Mentorship", "Stakeholder Communication", "Agile Delivery", "Cross-functional Collaboration"]
-    }
+    { "title": "Languages", "items": ["Java", "C", "C++", "Python", "Go", "SQL", "TypeScript", "JavaScript"] },
+    { "title": "Frameworks & Tools", "items": ["Spring Boot", "React", "Next.js", "Angular", "Node.js", "Express", "Flask", "HTML5", "CSS", "Kotlin", "React Native"] },
+    { "title": "Cloud & DevOps", "items": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Terraform", "CloudFormation", "GitHub Actions"] },
+    { "title": "Data & Platforms", "items": ["MySQL", "MSSQL", "PostgreSQL", "MongoDB", "Kafka", "Redshift", "S3", "Firestore"] }
   ],
   "education": [
     {
       "institution": "Virginia Tech, Falls Church, VA",
-      "degree": "Master of Engineering, Computer Science",
+      "degree": "Master of Engineering — Computer Science",
       "period": "Aug 2023 – May 2025",
       "details": [
-        "GPA: 3.94 / 4.0.",
-        "Graduate Coursework: Cloud Computing, Software Engineering, Mobile Application Development, Software Testing, Blockchain Technologies."
+        "GPA: 3.94/4.0",
+        "Coursework: Web App Development, Artificial Intelligence, Cloud Computing, Software Engineering, Mobile App Development, Fundamentals of Information Security, Blockchain Technologies"
       ]
     },
     {
-      "institution": "Anna University, Chennai, India",
-      "degree": "Bachelor of Engineering, Computer Science and Engineering",
+      "institution": "Amrita School of Engineering, Coimbatore, India",
+      "degree": "Bachelor of Technology — Electronics and Communication Engineering",
       "period": "Jul 2017 – Jun 2021",
       "details": [
-        "Graduated First Class with Distinction.",
-        "Led technical clubs and coordinated hackathons fostering peer learning."
+        "GPA: 7.53/10",
+        "Coursework: Data Structures and Algorithms, C Programming, Computational Thinking and Problem Solving"
       ]
     }
   ],
   "certifications": [
-    {
-      "name": "AWS Certified Cloud Practitioner",
-      "issuer": "Amazon Web Services",
-      "year": "2023"
-    }
+    { "name": "AWS Certified Cloud Practitioner", "issuer": "Amazon Web Services" },
+    { "name": "AWS Developer", "issuer": "Amazon Web Services" },
+    { "name": "AWS DevOps Engineer", "issuer": "Amazon Web Services" },
+    { "name": "Azure AI Fundamentals", "issuer": "Microsoft" },
+    { "name": "Azure AI Engineer", "issuer": "Microsoft" }
   ],
   "contact": {
-    "message": "I'm actively seeking 2025 full-time software engineering and machine learning roles where I can deliver impactful cloud and AI solutions.",
-    "email": "rubavignesh@gmail.com",
+    "message": "Open to 2025 full-time Software Engineering roles (cloud, platforms, and ML-enabled apps).",
+    "email": "rubavignesh@vt.edu",
     "links": {
-      "LinkedIn": "https://www.linkedin.com/in/rubavignesh/",
+      "LinkedIn": "http://www.linkedin.com/in/rubavignesh",
       "GitHub": "https://github.com/rubavignesh"
     }
   }
