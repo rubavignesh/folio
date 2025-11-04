@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Resume Highlights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand__mark" aria-hidden="true">RV</span>
+        <span class="brand__name">Ruba Vignesh Balaji</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" class="site-main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <p class="hero__eyebrow">Portfolio</p>
+        <h1 id="hero-heading" class="hero__title">Ruba Vignesh Balaji</h1>
+        <p class="hero__subtitle" data-field="tagline">Software Engineer &amp; Emerging Tech Enthusiast</p>
+        <p class="hero__summary" data-field="summary">
+          Crafting performant products across the stack and leading teams that deliver measurable customer value.
+        </p>
+        <div class="hero__meta" data-field="links">
+          <a class="chip" href="mailto:ruba@example.com">ruba@example.com</a>
+          <a class="chip" href="https://www.linkedin.com/in/rubavignesh/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="chip" href="https://github.com/rubavignesh" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="about-heading">About</h2>
+          <span class="section__tag">Who I Am</span>
+        </div>
+        <div class="section__body" data-field="about">
+          <p>
+            I connect business goals with pragmatic engineering, turning ambiguous ideas into intuitive experiences.
+            I thrive in collaborative environments and love mentoring teams to ship polished, accessible products.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="experience-heading">Experience</h2>
+          <span class="section__tag">Career Timeline</span>
+        </div>
+        <div class="timeline" data-field="experience">
+          <!-- Experience entries rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="projects-heading">Highlighted Projects</h2>
+          <span class="section__tag">Impact Stories</span>
+        </div>
+        <div class="card-grid" data-field="projects">
+          <!-- Project cards rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="skills-heading">Skills Snapshot</h2>
+          <span class="section__tag">Tools &amp; Strengths</span>
+        </div>
+        <div class="skills" data-field="skills">
+          <!-- Skill groups rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="education-heading">Education</h2>
+          <span class="section__tag">Foundations</span>
+        </div>
+        <div class="card-grid" data-field="education">
+          <!-- Education cards rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="certifications-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="certifications-heading">Certifications</h2>
+          <span class="section__tag">Continuing Learning</span>
+        </div>
+        <ul class="list" data-field="certifications">
+          <!-- Certifications rendered by JavaScript -->
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--accent" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="contact-heading">Let's Collaborate</h2>
+          <span class="section__tag">Get in Touch</span>
+        </div>
+        <div class="contact" data-field="contact">
+          <p>I'm open to new roles, collaborations, and speaking opportunities. Reach out and let's build something great.</p>
+          <a class="button" href="mailto:ruba@example.com">Email Me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span data-field="footerYear"></span> Ruba Vignesh Balaji. Built with care and continuous iteration.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+</html>

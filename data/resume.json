@@ -1,0 +1,150 @@
+{
+  "tagline": "Software Engineer · Cloud, Data & AI Problem Solver",
+  "summary": "Master of Engineering candidate at Virginia Tech with experience building large-scale AWS data platforms, AI-powered marketing products, and automation that accelerates customer insights for global teams.",
+  "links": [
+    { "label": "Email", "url": "mailto:rubavignesh@gmail.com" },
+    { "label": "Phone", "url": "tel:+15716357859" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rubavignesh/" },
+    { "label": "GitHub", "url": "https://github.com/rubavignesh" }
+  ],
+  "about": [
+    "I enjoy translating business goals into resilient cloud and data solutions that make analytics effortless for stakeholders and unlock faster decisions.",
+    "From shipping production systems at Amazon and Globant to supporting statewide digital modernization at Virginia Tech, I thrive in cross-functional teams where customer empathy, technical rigor, and mentorship are equally valued."
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer Intern",
+      "company": "Amazon",
+      "location": "Seattle, WA",
+      "period": "May 2024 – Aug 2024",
+      "achievements": [
+        "Built a privacy configuration review workflow powered by AWS Step Functions, Lambda, and DynamoDB, reducing manual review time from five hours per week to under a minute across 700+ data components.",
+        "Developed an AWS Glue and S3 ingestion pipeline with automated anomaly dashboards, eliminating recurring data ingestion issues and giving stakeholders real-time visibility into stream health.",
+        "Automated on-call detection scripts to surface data outages proactively, creating guardrails that accelerated issue triage by 30%."
+      ],
+      "tech": ["AWS", "Step Functions", "Lambda", "DynamoDB", "Glue", "S3", "CloudWatch"]
+    },
+    {
+      "role": "Graduate Research Assistant",
+      "company": "Virginia Tech",
+      "location": "Blacksburg, VA",
+      "period": "Aug 2023 – Present",
+      "achievements": [
+        "Researching predictive models that improve DMV taxpayer assistance workflows and elevate customer service outcomes.",
+        "Mentored six teammates on data engineering practices while delivering sprint commitments and automating pipelines that capture critical DMV program metrics.",
+        "Serve as AWS administrator to provision IAM roles, S3 buckets, RDS, and networking resources supporting the state's cloud migration efforts."
+      ],
+      "tech": ["Python", "AWS", "SageMaker", "RDS", "IAM", "S3"]
+    },
+    {
+      "role": "Senior Software Engineer",
+      "company": "Globant (ShieldRockets)",
+      "location": "Bengaluru, India",
+      "period": "Sep 2021 – Aug 2023",
+      "achievements": [
+        "Led development of GrowthLens, an AI-driven marketing intelligence platform that shrank campaign insight turnaround from weeks to hours.",
+        "Architected AWS data lake and Spark pipelines for six enterprise clients, powering 150+ dashboards with EMR, Glue, DynamoDB, and S3.",
+        "Integrated AWS Personalize and customer data platforms to deliver automated marketing journeys that increased campaign ROI by 17%."
+      ],
+      "tech": ["AWS", "EMR", "Glue", "Spark", "DynamoDB", "S3", "Personalize", "React"]
+    },
+    {
+      "role": "Senior Software Engineer",
+      "company": "Goals101 Data Solutions",
+      "location": "Noida, India",
+      "period": "Sep 2019 – Aug 2021",
+      "achievements": [
+        "Designed scalable data pipelines and analytics services that delivered personalized dashboards for 10+ financial institutions.",
+        "Containerized deployments with Docker and Helm, improving release cadence by 30% while hardening CI/CD practices.",
+        "Mentored five engineers, formalized code review guidelines, and rolled out automated testing to cut production defects by 40%."
+      ],
+      "tech": ["Node.js", "AWS", "Docker", "Helm", "PostgreSQL", "Kafka"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AWS Team Metrics Pipeline",
+      "description": "Built an end-to-end AWS data pipeline that standardizes engineering metrics for multiple teams and visualizes progress across initiatives.",
+      "highlights": [
+        "Provisioned ingestion with AWS Glue, Lambda, and EventBridge to aggregate signals from disparate services.",
+        "Authored CloudWatch dashboards and alerts that surface blockers instantly and keep leadership aligned on delivery health."
+      ],
+      "techStack": ["AWS Glue", "Lambda", "EventBridge", "S3", "CloudWatch"]
+    },
+    {
+      "name": "Job Tracking Platform",
+      "description": "Productivity platform that helps job seekers organize applications, interview prep, and AI-assisted task breakdowns.",
+      "highlights": [
+        "Shipped a MERN stack application with secure authentication, goal tracking, and real-time collaboration features.",
+        "Integrated AI copilots that summarize job descriptions and recommend tailored action plans, boosting user productivity by 40%."
+      ],
+      "techStack": ["Next.js", "Node.js", "MongoDB", "Express", "OpenAI"]
+    },
+    {
+      "name": "Amico Carpooling App",
+      "description": "Student-focused ride-sharing platform that intelligently matches commuters based on interests and schedules.",
+      "highlights": [
+        "Built AWS Lambda and API Gateway backend with DynamoDB routing that successfully matched 1,000+ student ride requests.",
+        "Earned top honors at MLH, PennApps, and YHack hackathons for reducing ride search time by 40% with recommendation algorithms."
+      ],
+      "techStack": ["AWS Lambda", "API Gateway", "DynamoDB", "React", "Node.js"]
+    }
+  ],
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "items": ["Python", "JavaScript", "TypeScript", "Java", "SQL"]
+    },
+    {
+      "title": "Cloud & Data Platforms",
+      "items": ["AWS", "Step Functions", "Glue", "Lambda", "DynamoDB", "S3", "RDS", "EMR", "Kafka"]
+    },
+    {
+      "title": "Frameworks & Tools",
+      "items": ["Node.js", "React", "Next.js", "Express", "MongoDB", "PostgreSQL", "Docker", "Helm", "GitHub Actions"]
+    },
+    {
+      "title": "Machine Learning & Analytics",
+      "items": ["PyTorch", "scikit-learn", "Pandas", "NumPy", "Tableau", "Power BI"]
+    },
+    {
+      "title": "Leadership & Collaboration",
+      "items": ["Technical Mentorship", "Stakeholder Communication", "Agile Delivery", "Cross-functional Collaboration"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Virginia Tech, Falls Church, VA",
+      "degree": "Master of Engineering, Computer Science",
+      "period": "Aug 2023 – May 2025",
+      "details": [
+        "GPA: 3.94 / 4.0.",
+        "Graduate Coursework: Cloud Computing, Software Engineering, Mobile Application Development, Software Testing, Blockchain Technologies."
+      ]
+    },
+    {
+      "institution": "Anna University, Chennai, India",
+      "degree": "Bachelor of Engineering, Computer Science and Engineering",
+      "period": "Jul 2017 – Jun 2021",
+      "details": [
+        "Graduated First Class with Distinction.",
+        "Led technical clubs and coordinated hackathons fostering peer learning."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "year": "2023"
+    }
+  ],
+  "contact": {
+    "message": "I'm actively seeking 2025 full-time software engineering and machine learning roles where I can deliver impactful cloud and AI solutions.",
+    "email": "rubavignesh@gmail.com",
+    "links": {
+      "LinkedIn": "https://www.linkedin.com/in/rubavignesh/",
+      "GitHub": "https://github.com/rubavignesh"
+    }
+  }
+}
