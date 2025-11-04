@@ -1,137 +1,130 @@
 {
-  "tagline": "Software Engineer · AI & Full-Stack Product Builder",
-  "summary": "Full-stack engineer with 5+ years of experience designing resilient platforms, leading cross-functional delivery, and shipping customer-loved features at scale.",
+  "tagline": "Software Engineer · Cloud, AI & Full-Stack",
+  "summary": "Graduate CS engineer specializing in cloud platforms, production-grade web apps, and ML-enabled systems. Experience spans HIPAA/TCPA-compliant communication products, AWS/Kubernetes education at scale, and enterprise full-stack systems.",
   "links": [
-    { "label": "Email", "url": "mailto:ruba@example.com" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rubavignesh/" },
+    { "label": "Email", "url": "mailto:rubavignesh@vt.edu" },
+    { "label": "Phone", "url": "tel:+15716357859" },
+    { "label": "LinkedIn", "url": "http://www.linkedin.com/in/rubavignesh" },
     { "label": "GitHub", "url": "https://github.com/rubavignesh" }
   ],
   "about": [
-    "I translate complex business requirements into reliable systems, pairing rapid prototyping with thoughtful architecture decisions.",
-    "Beyond shipping code, I mentor engineers, champion accessibility, and measure success through customer outcomes and operational excellence."
+    "I build reliable, scalable systems across the stack—API design, data flows, cloud infra, and frontends that feel fast and polished.",
+    "Recent work includes HIPAA/TCPA-compliant voice automation on GCP, AWS/EKS teaching modules for 100+ students, and Spring Boot + React platforms for fintech and operations."
   ],
   "experience": [
     {
-      "role": "Senior Software Engineer",
-      "company": "Fintech Nexus",
-      "location": "Toronto, ON",
-      "period": "2022 — Present",
-      "teamSize": "8 engineers",
+      "role": "Full Stack Engineer Intern",
+      "company": "Bindr.AI",
+      "location": "Falls Church, VA",
+      "period": "Aug 2025 – Present",
       "achievements": [
-        "Modernized a payment orchestration platform used by 120K+ merchants, reducing checkout latency by 32% with edge caching and optimized GraphQL resolvers.",
-        "Led an initiative to productionize ML-based fraud scoring, collaborating with data science to deliver a 17% drop in false positives while keeping review SLAs under 2 minutes.",
-        "Mentored 4 engineers and introduced a guild that standardized RFCs, code review quality gates, and availability playbooks across squads."
+        "Building a HIPAA/TCPA-compliant ringless voicemail system using Express/TypeScript APIs on GCP with Node.js schedulers, Firestore, and a React Native iOS app; secured via CI/CD.",
+        "Scaling a Payroll & HRMS full-stack app (Java + SQL + Angular) with Kubernetes orchestration and Vertex AI batch inference to automate compliance checks."
       ],
-      "tech": ["TypeScript", "React", "Node.js", "GraphQL", "AWS", "Terraform"]
+      "tech": ["TypeScript", "Node.js", "Express", "React Native", "GCP", "Cloud Run", "Firestore", "Kubernetes", "CI/CD", "Java", "SQL", "Angular", "Vertex AI"]
     },
     {
-      "role": "Software Engineer",
-      "company": "RetailSphere",
-      "location": "Chennai, IN",
-      "period": "2019 — 2022",
+      "role": "Graduate Software Engineer — Cloud Platforms",
+      "company": "Virginia Tech",
+      "location": "Falls Church, VA",
+      "period": "Feb 2025 – May 2025",
       "achievements": [
-        "Built a real-time inventory sync service processing 5M+ SKU updates daily, leveraging Kafka Streams and PostgreSQL logical replication.",
-        "Designed a design-system driven React migration that improved lighthouse accessibility scores from 62 to 96 and cut frontend defect rate by half.",
-        "Partnered with product and UX to launch personalized promotions, driving a 14% lift in conversion with rigorous A/B test instrumentation."
+        "Developed AWS course modules (EC2, EKS, Lambda, IAM) and Kubernetes orchestration with Terraform/CloudFormation.",
+        "Mentored 100+ students to debug and deploy full-stack applications for Capstone projects."
       ],
-      "tech": ["React", "Redux", "Node.js", "PostgreSQL", "Kafka", "Docker"]
+      "tech": ["AWS", "EC2", "EKS", "Lambda", "IAM", "Terraform", "CloudFormation", "Kubernetes"]
     },
     {
-      "role": "Graduate Research Assistant",
-      "company": "University of Waterloo",
-      "location": "Waterloo, ON",
-      "period": "2017 — 2019",
+      "role": "Graduate Software Engineer — Web Application Development",
+      "company": "Virginia Tech",
+      "location": "Falls Church, VA",
+      "period": "Aug 2024 – Dec 2024",
       "achievements": [
-        "Published two peer-reviewed papers on transfer learning for embedded computer vision, presenting findings at CVPR 2019 workshop.",
-        "Created an automated evaluation pipeline that cut experimentation time by 60%, enabling weekly iteration cadence for the research lab."
+        "Built a bookstore application starter (React + Jakarta EE/Java + MySQL) with weekly milestones.",
+        "Designed production-ready CRUD/auth workflows to assess and improve full-stack skills for 90+ students."
       ],
-      "tech": ["Python", "PyTorch", "OpenCV", "Kubernetes"]
+      "tech": ["React", "Java", "Jakarta EE", "MySQL", "Node.js"]
+    },
+    {
+      "role": "Software Engineer II",
+      "company": "Hexaware Technologies",
+      "location": "Chennai, India",
+      "period": "Jun 2021 – Jun 2023",
+      "achievements": [
+        "Built Java Spring Boot microservices with React and MySQL for mortgage loan processing; improved prediction accuracy by 25% and cut labeling time by 55%.",
+        "Shipped a customer churn platform (Spring Boot, Angular, MySQL) processing thousands of daily records; reduced churn by 30%.",
+        "Designed a secure loan document repository on AWS (S3, IAM, Lambda) with SHA-256 encryption; streamlined 1,000+ docs/month and cut retrieval time by 40%.",
+        "Delivered Java + Azure video analytics analyzing 500+ ATM feeds/day; reduced fraud response times by 40%."
+      ],
+      "tech": ["Java", "Spring Boot", "React", "Angular", "MySQL", "AWS (S3, IAM, Lambda)", "Azure", "SHA-256"]
     }
   ],
   "projects": [
     {
-      "name": "PulseOps Reliability Suite",
-      "role": "Maintainer",
-      "description": "Composable incident management tooling for small teams, featuring runbook automation and unified alert triage dashboards.",
+      "name": "Frequent Flyer Loyalty Program Fraud Detection",
+      "description": "Real-time fraud detection pipeline for airline loyalty transactions.",
       "highlights": [
-        "Implemented a workflow engine that codifies remediation steps and integrates with PagerDuty, Slack, and Jira.",
-        "Introduced OpenTelemetry-based tracing that reduced time-to-detect for priority incidents by 45%."
+        "Processed 350K+ loyalty transactions with AWS Glue, Redshift, Kafka, and S3; cut detection latency by 40%.",
+        "Built React + Node.js dashboard for alerts, drilldowns, and transaction insights."
       ],
-      "techStack": ["Next.js", "tRPC", "Prisma", "PostgreSQL", "OpenTelemetry"],
-      "links": {
-        "GitHub": "https://github.com/rubavignesh/pulseops",
-        "Live Demo": "https://pulseops.dev"
-      }
+      "techStack": ["React", "Node.js", "AWS Glue", "Redshift", "Kafka", "S3", "TensorFlow"]
     },
     {
-      "name": "Atlas Resume Builder",
-      "description": "A data-driven resume generator that analyzes job descriptions to surface the most relevant achievements from a personal knowledge base.",
+      "name": "Goalden — Comprehensive Productivity Tool (ShellHacks 2024)",
+      "description": "MERN platform with AI task breakdowns and job-tracking.",
       "highlights": [
-        "Built semantic search using OpenAI embeddings and Pinecone, enabling instant tailoring suggestions.",
-        "Designed a plugin architecture so users can export tailored resumes to PDF, Markdown, or LinkedIn EasyApply formats."
+        "Integrated LangChain + Claude AI for contextual subtasks and JD assistance; improved task completion efficiency by 30%."
       ],
-      "techStack": ["Vue", "Vite", "FastAPI", "PostgreSQL"],
-      "links": {
-        "GitHub": "https://github.com/rubavignesh/atlas-resume"
-      }
+      "techStack": ["React", "Node.js", "MongoDB", "Express", "LangChain", "Claude.ai", "LLMs", "Prompt Engineering"]
+    },
+    {
+      "name": "AmiGo — Carpool Ride-Sharing App (VTHacks 2024 • MLH Winner)",
+      "description": "Interest-based matching for campus carpools in a 36-hour build.",
+      "highlights": [
+        "React Native app with Node.js API and MSSQL on Azure/Defang; paired ~1,000 student carpools and reduced ride search time by 40%."
+      ],
+      "techStack": ["React Native", "Node.js", "MSSQL", "Azure", "Defang"]
     }
   ],
   "skills": [
-    {
-      "title": "Languages",
-      "items": ["TypeScript", "JavaScript", "Python", "Go", "SQL"]
-    },
-    {
-      "title": "Frameworks & Libraries",
-      "items": ["React", "Next.js", "Node.js", "Express", "FastAPI", "PyTorch"]
-    },
-    {
-      "title": "Platforms & Tools",
-      "items": ["AWS", "Docker", "Kubernetes", "Terraform", "PostgreSQL", "Redis", "GitHub Actions"]
-    },
-    {
-      "title": "Practices",
-      "items": ["System Design", "Test Automation", "Observability", "Performance Optimization", "DevOps Culture"]
-    }
+    { "title": "Languages", "items": ["Java", "C", "C++", "Python", "Go", "SQL", "TypeScript", "JavaScript"] },
+    { "title": "Frameworks & Tools", "items": ["Spring Boot", "React", "Next.js", "Angular", "Node.js", "Express", "Flask", "HTML5", "CSS", "Kotlin", "React Native"] },
+    { "title": "Cloud & DevOps", "items": ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "Terraform", "CloudFormation", "GitHub Actions"] },
+    { "title": "Data & Platforms", "items": ["MySQL", "MSSQL", "PostgreSQL", "MongoDB", "Kafka", "Redshift", "S3", "Firestore"] }
   ],
   "education": [
     {
-      "institution": "University of Waterloo",
-      "degree": "Master of Applied Science, Computer Engineering",
-      "period": "2017 — 2019",
+      "institution": "Virginia Tech, Falls Church, VA",
+      "degree": "Master of Engineering — Computer Science",
+      "period": "Aug 2023 – May 2025",
       "details": [
-        "Thesis on on-device transfer learning optimizations for embedded vision systems.",
-        "Teaching assistant for Distributed Systems and Advanced Algorithms courses."
+        "GPA: 3.94/4.0",
+        "Coursework: Web App Development, Artificial Intelligence, Cloud Computing, Software Engineering, Mobile App Development, Fundamentals of Information Security, Blockchain Technologies"
       ]
     },
     {
-      "institution": "Anna University",
-      "degree": "Bachelor of Engineering, Computer Science",
-      "period": "2013 — 2017",
+      "institution": "Amrita School of Engineering, Coimbatore, India",
+      "degree": "Bachelor of Technology — Electronics and Communication Engineering",
+      "period": "Jul 2017 – Jun 2021",
       "details": [
-        "Graduated with First Class Distinction (top 5%).",
-        "President, Computer Society of India student chapter; organized 6+ hackathons."
+        "GPA: 7.53/10",
+        "Coursework: Data Structures and Algorithms, C Programming, Computational Thinking and Problem Solving"
       ]
     }
   ],
   "certifications": [
-    {
-      "name": "AWS Certified Solutions Architect – Associate",
-      "issuer": "Amazon Web Services",
-      "year": "2023"
-    },
-    {
-      "name": "Google Cloud Professional Cloud Architect",
-      "issuer": "Google Cloud",
-      "year": "2022"
-    }
+    { "name": "AWS Certified Cloud Practitioner", "issuer": "Amazon Web Services" },
+    { "name": "AWS Developer", "issuer": "Amazon Web Services" },
+    { "name": "AWS DevOps Engineer", "issuer": "Amazon Web Services" },
+    { "name": "Azure AI Fundamentals", "issuer": "Microsoft" },
+    { "name": "Azure AI Engineer", "issuer": "Microsoft" }
   ],
   "contact": {
-    "message": "I'm exploring staff-level engineering roles and advisory opportunities within mission-driven teams.",
-    "email": "ruba@example.com",
+    "message": "Open to 2025 full-time Software Engineering roles (cloud, platforms, and ML-enabled apps).",
+    "email": "rubavignesh@vt.edu",
     "links": {
-      "Calendly": "https://calendly.com/rubavignesh/intro",
-      "Twitter": "https://twitter.com/rubavignesh"
+      "LinkedIn": "http://www.linkedin.com/in/rubavignesh",
+      "GitHub": "https://github.com/rubavignesh"
     }
   }
 }
