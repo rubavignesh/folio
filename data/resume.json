@@ -1,0 +1,137 @@
+{
+  "tagline": "Software Engineer · AI & Full-Stack Product Builder",
+  "summary": "Full-stack engineer with 5+ years of experience designing resilient platforms, leading cross-functional delivery, and shipping customer-loved features at scale.",
+  "links": [
+    { "label": "Email", "url": "mailto:ruba@example.com" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rubavignesh/" },
+    { "label": "GitHub", "url": "https://github.com/rubavignesh" }
+  ],
+  "about": [
+    "I translate complex business requirements into reliable systems, pairing rapid prototyping with thoughtful architecture decisions.",
+    "Beyond shipping code, I mentor engineers, champion accessibility, and measure success through customer outcomes and operational excellence."
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Fintech Nexus",
+      "location": "Toronto, ON",
+      "period": "2022 — Present",
+      "teamSize": "8 engineers",
+      "achievements": [
+        "Modernized a payment orchestration platform used by 120K+ merchants, reducing checkout latency by 32% with edge caching and optimized GraphQL resolvers.",
+        "Led an initiative to productionize ML-based fraud scoring, collaborating with data science to deliver a 17% drop in false positives while keeping review SLAs under 2 minutes.",
+        "Mentored 4 engineers and introduced a guild that standardized RFCs, code review quality gates, and availability playbooks across squads."
+      ],
+      "tech": ["TypeScript", "React", "Node.js", "GraphQL", "AWS", "Terraform"]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "RetailSphere",
+      "location": "Chennai, IN",
+      "period": "2019 — 2022",
+      "achievements": [
+        "Built a real-time inventory sync service processing 5M+ SKU updates daily, leveraging Kafka Streams and PostgreSQL logical replication.",
+        "Designed a design-system driven React migration that improved lighthouse accessibility scores from 62 to 96 and cut frontend defect rate by half.",
+        "Partnered with product and UX to launch personalized promotions, driving a 14% lift in conversion with rigorous A/B test instrumentation."
+      ],
+      "tech": ["React", "Redux", "Node.js", "PostgreSQL", "Kafka", "Docker"]
+    },
+    {
+      "role": "Graduate Research Assistant",
+      "company": "University of Waterloo",
+      "location": "Waterloo, ON",
+      "period": "2017 — 2019",
+      "achievements": [
+        "Published two peer-reviewed papers on transfer learning for embedded computer vision, presenting findings at CVPR 2019 workshop.",
+        "Created an automated evaluation pipeline that cut experimentation time by 60%, enabling weekly iteration cadence for the research lab."
+      ],
+      "tech": ["Python", "PyTorch", "OpenCV", "Kubernetes"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PulseOps Reliability Suite",
+      "role": "Maintainer",
+      "description": "Composable incident management tooling for small teams, featuring runbook automation and unified alert triage dashboards.",
+      "highlights": [
+        "Implemented a workflow engine that codifies remediation steps and integrates with PagerDuty, Slack, and Jira.",
+        "Introduced OpenTelemetry-based tracing that reduced time-to-detect for priority incidents by 45%."
+      ],
+      "techStack": ["Next.js", "tRPC", "Prisma", "PostgreSQL", "OpenTelemetry"],
+      "links": {
+        "GitHub": "https://github.com/rubavignesh/pulseops",
+        "Live Demo": "https://pulseops.dev"
+      }
+    },
+    {
+      "name": "Atlas Resume Builder",
+      "description": "A data-driven resume generator that analyzes job descriptions to surface the most relevant achievements from a personal knowledge base.",
+      "highlights": [
+        "Built semantic search using OpenAI embeddings and Pinecone, enabling instant tailoring suggestions.",
+        "Designed a plugin architecture so users can export tailored resumes to PDF, Markdown, or LinkedIn EasyApply formats."
+      ],
+      "techStack": ["Vue", "Vite", "FastAPI", "PostgreSQL"],
+      "links": {
+        "GitHub": "https://github.com/rubavignesh/atlas-resume"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "title": "Languages",
+      "items": ["TypeScript", "JavaScript", "Python", "Go", "SQL"]
+    },
+    {
+      "title": "Frameworks & Libraries",
+      "items": ["React", "Next.js", "Node.js", "Express", "FastAPI", "PyTorch"]
+    },
+    {
+      "title": "Platforms & Tools",
+      "items": ["AWS", "Docker", "Kubernetes", "Terraform", "PostgreSQL", "Redis", "GitHub Actions"]
+    },
+    {
+      "title": "Practices",
+      "items": ["System Design", "Test Automation", "Observability", "Performance Optimization", "DevOps Culture"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Waterloo",
+      "degree": "Master of Applied Science, Computer Engineering",
+      "period": "2017 — 2019",
+      "details": [
+        "Thesis on on-device transfer learning optimizations for embedded vision systems.",
+        "Teaching assistant for Distributed Systems and Advanced Algorithms courses."
+      ]
+    },
+    {
+      "institution": "Anna University",
+      "degree": "Bachelor of Engineering, Computer Science",
+      "period": "2013 — 2017",
+      "details": [
+        "Graduated with First Class Distinction (top 5%).",
+        "President, Computer Society of India student chapter; organized 6+ hackathons."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "year": "2023"
+    },
+    {
+      "name": "Google Cloud Professional Cloud Architect",
+      "issuer": "Google Cloud",
+      "year": "2022"
+    }
+  ],
+  "contact": {
+    "message": "I'm exploring staff-level engineering roles and advisory opportunities within mission-driven teams.",
+    "email": "ruba@example.com",
+    "links": {
+      "Calendly": "https://calendly.com/rubavignesh/intro",
+      "Twitter": "https://twitter.com/rubavignesh"
+    }
+  }
+}
